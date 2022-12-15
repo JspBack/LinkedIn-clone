@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import { useState } from "react";
 import styled from "styled-components";
 import ReactPlayer from "react-player";
@@ -15,7 +16,7 @@ const PostModal = (props) => {
     const image = e.target.files[0];
 
     if (image === "" || image === undefined) {
-      alert("Not an image, the file is a ${typeof(image)}");
+      alert(`Not an image, the file is a ${typeof image}`);
       return;
     }
 
