@@ -1,1 +1,1 @@
-npm install react-router-dom@5
+It is a simple linkedIn clone with react(redux,firebase)
